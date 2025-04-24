@@ -1,0 +1,1912 @@
+{
+  "project": {
+    "id": "pravoved-1000122054-jNb",
+    "name": "pravoved-1000122054-jNb",
+    "folder": "/platform"
+  },
+  "settings": {
+    "language": "ru",
+    "spellingCorrection": false,
+    "classificationAlgorithm": "sts",
+    "timezone": "Europe/Moscow",
+    "extendedSettings": {
+      "classificationAlgorithmVersion": 1.0,
+      "tokenizerEngine": "mystem",
+      "useShared": false
+    },
+    "shared": false,
+    "validation": {
+      "phraseValidationEnabled": false,
+      "answerValidationEnabled": false,
+      "phraseValidationThreshold": 0.5,
+      "answerValidationThreshold": 0.8
+    }
+  },
+  "intents": [
+    {
+      "path": "/AnsweringMachine",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "доступен звонок был перенаправлен на голосовой почтовый ящик вы можете оставить сообщение после звукового сигнала"
+        },
+        {
+          "text": "звонок был перенаправлен на голосовой почтовый ящик вы можете оставить сообщение после звукового сигнала"
+        },
+        {
+          "text": "добрый день слушаю вас"
+        },
+        {
+          "text": "созваниваться оставайтесь на линии"
+        },
+        {
+          "text": "остаться оставайтесь на линии"
+        },
+        {
+          "text": "отзваниваться оставайтесь на линии"
+        },
+        {
+          "text": "звонок был перенаправлен на голосовой почтовый ящик вы можете оставить сообщение после звукового сигнала"
+        },
+        {
+          "text": "внимательно слушаю"
+        },
+        {
+          "text": "на ваш звонок попробуйте перезвонить позднее если вы хотите оставить ему голосовое сообщение пожалуйста говорите после звукового сигнала"
+        },
+        {
+          "text": "здравствуйте внимательно слушаю"
+        },
+        {
+          "text": "оставайтесь на линии"
+        },
+        {
+          "text": "оставьте сообщение на автоответчик"
+        },
+        {
+          "text": "говорите готовы записывать все что вы хотите передать абоненту"
+        },
+        {
+          "text": "спасибо что перезвонили"
+        },
+        {
+          "text": "на ваш звонок оставьте свое сообщение я перезвоню вам позже"
+        },
+        {
+          "text": "вы мне первый раз звоните"
+        },
+        {
+          "text": "уточните по какому вопросу звоните"
+        },
+        {
+          "text": "у вас к нему срочный вопрос"
+        },
+        {
+          "text": "но я записала для него ваш ответ попросите его вам перезвонить когда он вернется в сеть"
+        },
+        {
+          "text": "здравствуйте продолжаю вызов"
+        },
+        {
+          "text": "все записала и передам в любом случае"
+        },
+        {
+          "text": "я виртуальный помощник а моя задача записывать звонки когда абонент"
+        },
+        {
+          "text": "алло здравствуйте продолжаю дозвон"
+        },
+        {
+          "text": "виртуальный помощник"
+        },
+        {
+          "text": "продолжаем вызов оставайтесь на линии"
+        },
+        {
+          "text": "знаете вы очень вовремя мне позвонили я с этой темой как раз недавно себе наметила разобраться"
+        },
+        {
+          "text": "спасибо что перезвонили"
+        },
+        {
+          "text": "номер не отвечает"
+        },
+        {
+          "text": "номер занят оставьте сообщение на автоответчик"
+        },
+        {
+          "text": "знаете я и сам своего рода"
+        },
+        {
+          "text": "подождите вы номером не ошиблись"
+        },
+        {
+          "text": "говорит персональный"
+        },
+        {
+          "text": "звукового сигнала"
+        },
+        {
+          "text": "абонент"
+        },
+        {
+          "text": "можно уточнить вы робот или человек"
+        },
+        {
+          "text": "как можно будет связаться с вами по этому же номеру телефона"
+        },
+        {
+          "text": "зафиксировал информацию"
+        },
+        {
+          "text": "как хорошо что вы позвонили"
+        },
+        {
+          "text": "в течение какого времени нужно дать ответ"
+        },
+        {
+          "text": "скажите вкратце о чем разговор предстоит"
+        },
+        {
+          "text": "слушаю и записываю"
+        },
+        {
+          "text": "Здравствуйте вызываемый абонент сейчас не может ответить возможно его телефон разряжен или он находится вне зоны действия сети например летит в самолете вы можете оставить сообщение после звукового сигнала"
+        },
+        {
+          "text": "номер не отвечает"
+        },
+        {
+          "text": "здравствуйте я вас слушаю"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/AmountOfDebt",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "два миллиона и пятьсот тысяч"
+        },
+        {
+          "text": "три миллиона и двести тысяч"
+        },
+        {
+          "text": "десять миллионов сто тысяч"
+        },
+        {
+          "text": "больше миллиона"
+        },
+        {
+          "text": "пять миллионов и триста тысяч "
+        },
+        {
+          "text": "миллион двести"
+        },
+        {
+          "text": "около трёхста сорока"
+        },
+        {
+          "text": "около трёхста тысяч"
+        },
+        {
+          "text": "около  пятиста "
+        },
+        {
+          "text": "около семиста"
+        },
+        {
+          "text": "где-то около девятиста "
+        },
+        {
+          "text": "ну там около четырехста"
+        },
+        {
+          "text": "где то миллионов было"
+        },
+        {
+          "text": "около пяти миллионов рублей"
+        },
+        {
+          "text": "около восьмиста тысяч рублей"
+        },
+        {
+          "text": "полтора миллиона рублей"
+        },
+        {
+          "text": "два миллиона рублей"
+        },
+        {
+          "text": "в одном банке тысяч"
+        },
+        {
+          "text": "тысяч пятьсот"
+        },
+        {
+          "text": "думаю тысяч восемсот"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "сто"
+        },
+        {
+          "text": "двести"
+        },
+        {
+          "text": "триста"
+        },
+        {
+          "text": "15 тысяч"
+        },
+        {
+          "text": "сорок тысяч"
+        },
+        {
+          "text": "1 миллион"
+        },
+        {
+          "text": "2 миллона"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "4 тысячи"
+        },
+        {
+          "text": "5 тысяч"
+        },
+        {
+          "text": "6"
+        },
+        {
+          "text": "7"
+        },
+        {
+          "text": "8"
+        },
+        {
+          "text": "несколько тысяч"
+        },
+        {
+          "text": "двадцать тысяч"
+        },
+        {
+          "text": "в одном банке тысяч"
+        },
+        {
+          "text": "тысяч пятьсот"
+        },
+        {
+          "text": "думаю тысяч восемьсот"
+        },
+        {
+          "text": "сто"
+        },
+        {
+          "text": "двести"
+        },
+        {
+          "text": "триста"
+        },
+        {
+          "text": "четыреста"
+        },
+        {
+          "text": "пятьсот"
+        },
+        {
+          "text": "шестьсот"
+        },
+        {
+          "text": "семьсот"
+        },
+        {
+          "text": "восемьсот"
+        },
+        {
+          "text": "девятьсот"
+        },
+        {
+          "text": "100"
+        },
+        {
+          "text": "200"
+        },
+        {
+          "text": "300"
+        },
+        {
+          "text": "400"
+        },
+        {
+          "text": "500"
+        },
+        {
+          "text": "600"
+        },
+        {
+          "text": "700"
+        },
+        {
+          "text": "800"
+        },
+        {
+          "text": "900"
+        },
+        {
+          "text": "15 тысяч"
+        },
+        {
+          "text": "сорок тысяч"
+        },
+        {
+          "text": "1 миллион"
+        },
+        {
+          "text": "2 миллиона"
+        },
+        {
+          "text": "4 тысячи"
+        },
+        {
+          "text": "5 тысяч"
+        },
+        {
+          "text": "несколько тысяч"
+        },
+        {
+          "text": "двадцать тысяч"
+        },
+        {
+          "text": "в одном банке несколько тысяч, в другом тысяч 200"
+        },
+        {
+          "text": "в первом банке 300 тысяч, во втором миллион"
+        },
+        {
+          "text": "один банк 500 тысяч, другой банк 1 миллион"
+        },
+        {
+          "text": "в одном банке тысяч десять, в другом 100 тысяч"
+        },
+        {
+          "text": "в одном банке миллион, в другом две тысячи"
+        },
+        {
+          "text": "в банке А 700 тысяч, в банке Б 1.5 миллиона"
+        },
+        {
+          "text": "в одном банке 50 тысяч, в другом банке 250 тысяч"
+        },
+        {
+          "text": "сумма долгов: 1 миллион в одном банке и 2 миллиона в другом"
+        },
+        {
+          "text": "в одном банке тысяч пятьдесят, в другом триста тысяч"
+        },
+        {
+          "text": "в первом банке миллион двести, во втором банк 400 тысяч"
+        },
+        {
+          "text": "думаю, что в одном банке тысяч семьдесят, а в другом миллион"
+        },
+        {
+          "text": "в одном банке около 90 тысяч, в другом где-то 500 тысяч"
+        },
+        {
+          "text": "от 100 тысяч"
+        },
+        {
+          "text": "от 200 тысяч"
+        },
+        {
+          "text": "от 300 тысяч"
+        },
+        {
+          "text": "от 400 тысяч"
+        },
+        {
+          "text": "от 500 тысяч"
+        },
+        {
+          "text": "от 600 тысяч"
+        },
+        {
+          "text": "от 700 тысяч"
+        },
+        {
+          "text": "от 800 тысяч"
+        },
+        {
+          "text": "от 900 тысяч"
+        },
+        {
+          "text": "от ста тысяч"
+        },
+        {
+          "text": "от двухсот тысяч"
+        },
+        {
+          "text": "от трехсот тысяч"
+        },
+        {
+          "text": "от четырехсот тысяч"
+        },
+        {
+          "text": "от пятисот тысяч"
+        },
+        {
+          "text": "от шестисот тысяч"
+        },
+        {
+          "text": "от семисот тысяч"
+        },
+        {
+          "text": "от восьмисот тысяч"
+        },
+        {
+          "text": "на кредитной карте тысяч двесит"
+        },
+        {
+          "text": "кредит наличными на общую сумму "
+        },
+        {
+          "text": "долги по ипотеке на сумму два миллиона"
+        },
+        {
+          "text": "по кредиту долги на сумму "
+        },
+        {
+          "text": "по кредитке долги"
+        },
+        {
+          "text": "двести кредитные карты и триста потребительский кредит"
+        },
+        {
+          "text": "сто это кредитные карты и сто потребительский кредит"
+        },
+        {
+          "text": "потребы на пятьсот"
+        },
+        {
+          "text": "потребительские кредиты и карты в сбере"
+        },
+        {
+          "text": "двести тысяч кредитные карты и триста потребительский кредит"
+        },
+        {
+          "text": "сто это кредитные карты на сто и сто потребительский кредит"
+        },
+        {
+          "text": "потребы на пятьсот тысяч"
+        },
+        {
+          "text": "потребительские кредиты и карты в разных банках на несколько тысяч"
+        },
+        {
+          "text": "двести кредитные карты и 50 потребительский кредит"
+        },
+        {
+          "text": "сто это кредитные карты и сто потребительский кредит в тиньке"
+        },
+        {
+          "text": "потребы на пятьсот тысяч"
+        },
+        {
+          "text": "потребительские кредиты и карты банковские"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [
+        "@duckling.number"
+      ],
+      "slots": [
+        {
+          "name": "duckling.number",
+          "entity": "duckling.number",
+          "required": true,
+          "prompts": [],
+          "array": true
+        }
+      ],
+      "priority": 0
+    },
+    {
+      "path": "/StartSecondNoYes",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "мне это интересно"
+        },
+        {
+          "text": "интересовался"
+        },
+        {
+          "text": "оставлял"
+        },
+        {
+          "text": "подавал заявку"
+        },
+        {
+          "text": "я обращался"
+        },
+        {
+          "text": "я писал"
+        },
+        {
+          "text": "консультировался"
+        },
+        {
+          "text": "хотел узнать"
+        },
+        {
+          "text": "была заявка"
+        },
+        {
+          "text": "точно оставлял"
+        },
+        {
+          "text": "мне как раз это интересно"
+        },
+        {
+          "text": "оставлял"
+        },
+        {
+          "text": "да, оставлял"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/StartSecondNoNo",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "не верно"
+        },
+        {
+          "text": "неверно"
+        },
+        {
+          "text": "не оставлял"
+        },
+        {
+          "text": "всё верно, ничего не было"
+        },
+        {
+          "text": "не интересовался"
+        },
+        {
+          "text": "точно не оставлял"
+        },
+        {
+          "text": "уверен, что нет"
+        },
+        {
+          "text": "именно так, не подавал"
+        },
+        {
+          "text": "всё правильно, заявки не было"
+        },
+        {
+          "text": "подтверждаю, не обращался"
+        },
+        {
+          "text": "конечно, не оставлял"
+        },
+        {
+          "text": "никаких заявок"
+        },
+        {
+          "text": "абсолютно верно, ничего не делал"
+        },
+        {
+          "text": "совершенно верно, не писал"
+        },
+        {
+          "text": "сто процентов нет"
+        },
+        {
+          "text": "мне это не интересно"
+        },
+        {
+          "text": "я точно не оставлял"
+        },
+        {
+          "text": "не нужно ничего"
+        },
+        {
+          "text": "мне ничего не нужно"
+        },
+        {
+          "text": "не оставлял"
+        },
+        {
+          "text": "ничего от вас не нужно"
+        },
+        {
+          "text": "ничего не нужно спасибо"
+        },
+        {
+          "text": "у меня нет долгов"
+        },
+        {
+          "text": "долгов у меня нет"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/SmartAnsweringMachine",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "вы тоже заметили какая здесь стабильная связь я рад что мы можем продолжать этот разговор часами"
+        },
+        {
+          "text": "наверное когда вы звоните друзьям им приходится брать отгул на работе"
+        },
+        {
+          "text": "хорошо скажите вы с какой целью звоните"
+        },
+        {
+          "text": "хотите обрести богатство счастье гармонию с собой что же одними беседами со мной этого не добьешься просто предупреждаю"
+        },
+        {
+          "text": "мне было бы весьма интересно узнать подробности"
+        },
+        {
+          "text": "благодарю вас за информацию сориентируйте меня пожалуйста по дальнейшим действиям с вашей и с моей стороны"
+        },
+        {
+          "text": "первый сезон нашего разговора немножко затянулся предлагаю не продлевать на второй и попрощаться"
+        },
+        {
+          "text": "извините я отвлеклась на секунду на чем мы остановились"
+        },
+        {
+          "text": "вас замечательно слышно говорите"
+        },
+        {
+          "text": "горячее место чтобы вы не могли посидеть на дорожку всего чудесного"
+        },
+        {
+          "text": "я про этот сервис слышал но точно не знаю как это у вас работает расскажите"
+        },
+        {
+          "text": "настолько похолодало что вы замерзли и не можете положить трубку попробую согреть вас шутками"
+        },
+        {
+          "text": "прекрасно слышу"
+        },
+        {
+          "text": "надеюсь вы все сказали ничего не забыли так"
+        },
+        {
+          "text": "а еще раз скажите вы от какого оператора звоните то я уже опять забыл"
+        },
+        {
+          "text": "вы точно по этому номеру звоните"
+        },
+        {
+          "text": "вас слышно можете говорить"
+        },
+        {
+          "text": "поиграем сейчас я сделаю мхатовскую паузу если не успеете положить трубку то вы проиграли вы проиграли до свидания"
+        },
+        {
+          "text": "так подождите не соображу последний момент повторите еще раз можно помедленнее"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/Start",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "да, слышно"
+        },
+        {
+          "text": "да"
+        },
+        {
+          "text": "да да"
+        },
+        {
+          "text": "говорите"
+        },
+        {
+          "text": "слушаю"
+        },
+        {
+          "text": "алло"
+        },
+        {
+          "text": "я вас слушаю"
+        },
+        {
+          "text": "алло, говорите"
+        },
+        {
+          "text": "говорите слушаю"
+        },
+        {
+          "text": "да алло "
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/CorrectionYes",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "На много меньше"
+        },
+        {
+          "text": "Всё учёл"
+        },
+        {
+          "text": "учли"
+        },
+        {
+          "text": "да меньше трёхсот"
+        },
+        {
+          "text": "на много меньше"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/CorrectionNo",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "На много ,больше"
+        },
+        {
+          "text": "Всё учёл, у меня больше"
+        },
+        {
+          "text": "учли"
+        },
+        {
+          "text": "больше трёхсот"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/Busy",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "Перезвоните"
+        },
+        {
+          "text": "Не могу сейчас говорить"
+        },
+        {
+          "text": "Давайте вечером"
+        },
+        {
+          "text": "Перезвоните потом"
+        },
+        {
+          "text": "На работе сейчас"
+        },
+        {
+          "text": "Не могу говорить"
+        },
+        {
+          "text": "Сейчас нет, потом"
+        },
+        {
+          "text": "Перезвоню вам"
+        },
+        {
+          "text": "перезвоните позже"
+        },
+        {
+          "text": "не могу говорить"
+        },
+        {
+          "text": "я занят сейчас"
+        },
+        {
+          "text": "занят говорю я вам"
+        },
+        {
+          "text": "не могу говорить, я на работе"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/NotReadyForBankruptcy",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "не готов"
+        },
+        {
+          "text": "я не готов"
+        },
+        {
+          "text": "не готов на такой исход"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/ReadyForBankruptcy",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "Да, я готов"
+        },
+        {
+          "text": "готов"
+        },
+        {
+          "text": "готов на такой исход"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/Yes",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "да"
+        },
+        {
+          "text": "ага"
+        },
+        {
+          "text": "угу"
+        },
+        {
+          "text": "да да "
+        },
+        {
+          "text": "да являюсь"
+        },
+        {
+          "text": "являюсь"
+        },
+        {
+          "text": "да, конечно"
+        },
+        {
+          "text": "да интересовался"
+        },
+        {
+          "text": "да мне это интересно"
+        },
+        {
+          "text": "да оставлял"
+        },
+        {
+          "text": "да верно"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/HasAdditionalProperty",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "есть машина"
+        },
+        {
+          "text": "имеется автомобиль"
+        },
+        {
+          "text": "есть дача"
+        },
+        {
+          "text": "да, ещё одна квартира"
+        },
+        {
+          "text": "есть дом"
+        },
+        {
+          "text": "у меня есть дача"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/NegativeDebt",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "моральный ущерб"
+        },
+        {
+          "text": "ущерб"
+        },
+        {
+          "text": "алименты"
+        },
+        {
+          "text": "долги по ип"
+        },
+        {
+          "text": "долги по организации"
+        },
+        {
+          "text": "на алименты подали"
+        },
+        {
+          "text": "алименты"
+        },
+        {
+          "text": "моральный ущерб"
+        },
+        {
+          "text": "долги по ип"
+        },
+        {
+          "text": "долги по юридеческому лицу"
+        },
+        {
+          "text": "долги по организации"
+        },
+        {
+          "text": "долги по компании"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/No",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "нет"
+        },
+        {
+          "text": "нету"
+        },
+        {
+          "text": "не интересовался"
+        },
+        {
+          "text": "сейчас нет"
+        },
+        {
+          "text": "уже нет"
+        },
+        {
+          "text": "нет, не интересовался"
+        },
+        {
+          "text": "не нету"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/hasWork",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "я работаю"
+        },
+        {
+          "text": "работаю"
+        },
+        {
+          "text": "да, работаю"
+        },
+        {
+          "text": "есть работа"
+        },
+        {
+          "text": "да я работаю"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/NoWork",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "без работный"
+        },
+        {
+          "text": "не работаю"
+        },
+        {
+          "text": "не работаю"
+        },
+        {
+          "text": "сейчас нет работы"
+        },
+        {
+          "text": "пока без работы"
+        },
+        {
+          "text": "сейчас не работаю"
+        },
+        {
+          "text": "уже не работаю"
+        },
+        {
+          "text": "не работаю на данный момент"
+        },
+        {
+          "text": "нет работы"
+        },
+        {
+          "text": "да не нету"
+        },
+        {
+          "text": "да нет"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/HasDeposit",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "есть залог"
+        },
+        {
+          "text": "есть, кредит под залог"
+        },
+        {
+          "text": "да, есть залог"
+        },
+        {
+          "text": "ипотека по залог"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/NoDeposit",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "залога нет"
+        },
+        {
+          "text": "без залога"
+        },
+        {
+          "text": "нет залога"
+        },
+        {
+          "text": "все кредиты без залога"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/PositiveDebt",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "у меня кредит"
+        },
+        {
+          "text": "у меня кредитная карта"
+        },
+        {
+          "text": "брал кредит"
+        },
+        {
+          "text": "у меня микро займ"
+        },
+        {
+          "text": "у меня займ"
+        },
+        {
+          "text": "кредит наличными"
+        },
+        {
+          "text": "кредит на ремонт"
+        },
+        {
+          "text": "кредит наличными"
+        },
+        {
+          "text": "кредитная карта"
+        },
+        {
+          "text": "кредит на машину"
+        },
+        {
+          "text": "авто кредит"
+        },
+        {
+          "text": "я брал кредит на ремонт"
+        },
+        {
+          "text": "у меня кредитная карта"
+        },
+        {
+          "text": "потреб"
+        },
+        {
+          "text": "Потребительский кредит"
+        },
+        {
+          "text": "Микрозайм"
+        },
+        {
+          "text": "микрозаймы"
+        },
+        {
+          "text": "мфо"
+        },
+        {
+          "text": "микрокредит"
+        },
+        {
+          "text": "жкх"
+        },
+        {
+          "text": "долг по жку"
+        },
+        {
+          "text": "долг за коммунальные услуги"
+        },
+        {
+          "text": "по коммуналки долги "
+        },
+        {
+          "text": "долги по налогам"
+        },
+        {
+          "text": "набоги"
+        },
+        {
+          "text": "долги по медецинским счетам "
+        },
+        {
+          "text": "долг по рассписке"
+        },
+        {
+          "text": "долг физическому лицу"
+        },
+        {
+          "text": "штрафы гибдд"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "slots": [
+        {
+          "name": "credit",
+          "entity": "credit",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "consumer_credit",
+          "entity": "consumer_credit",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "medical_bills",
+          "entity": "medical_bills",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "mfo",
+          "entity": "mfo",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "microcredit",
+          "entity": "microcredit",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "microloan",
+          "entity": "microloan",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "private_person",
+          "entity": "private_person",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "receiptр",
+          "entity": "receiptр",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "tax",
+          "entity": "tax",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "traffic_police",
+          "entity": "traffic_police",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "utilities_sector",
+          "entity": "utilities_sector",
+          "required": false,
+          "prompts": [],
+          "array": true
+        },
+        {
+          "name": "credit_card",
+          "entity": "credit_card",
+          "required": false,
+          "prompts": [],
+          "array": true
+        }
+      ],
+      "priority": 0
+    },
+    {
+      "path": "/Citizen",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "да, я гражданин"
+        },
+        {
+          "text": "я россиянин"
+        },
+        {
+          "text": "гражданство имею"
+        },
+        {
+          "text": "получил гражданство"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
+      "path": "/NotACitizen",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "я не гражданин"
+        },
+        {
+          "text": "у меня нет гражданство"
+        },
+        {
+          "text": "гражданства не имею"
+        },
+        {
+          "text": "не являюсь"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    }
+  ],
+  "entities": [
+    {
+      "entity": {
+        "name": "credit",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "кредит"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "medical_bills",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "медицина",
+            "медицинский",
+            "медицина"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "receiptр",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "расписка",
+            "расписке",
+            "расписки"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "credit_card",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "кредитная карта"
+          ],
+          "value": ""
+        },
+        {
+          "type": "synonyms",
+          "rule": [
+            "карта"
+          ],
+          "value": ""
+        },
+        {
+          "type": "synonyms",
+          "rule": [
+            "кредитка",
+            "кредитная карта",
+            "карта"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "microloan",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "микрозайм",
+            "займ",
+            "займы",
+            "микрозаймы"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "mfo",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "мфо",
+            "эмфо",
+            "эмфэо",
+            "эмфео"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "tax",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "налог",
+            "налоги"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "private_person",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "физ лицу",
+            "физическому лицу",
+            "физ лицо",
+            "физическому лицу"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "traffic_police",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "гибдд",
+            "полиция",
+            "полицеский",
+            "гаи"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "consumer_credit",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "потреб",
+            "потребительский "
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "microcredit",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "микрокредит",
+            "микрокредиты"
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "utilities_sector",
+        "enabled": true,
+        "shared": false,
+        "type": "annotation",
+        "priority": 1,
+        "noSpelling": true,
+        "noMorph": false,
+        "phoneticSearch": false,
+        "fuzzySearch": false,
+        "client": false,
+        "hidden": false
+      },
+      "records": [
+        {
+          "type": "synonyms",
+          "rule": [
+            "жкх",
+            "жку",
+            "коммунальные",
+            "коммуналка"
+          ],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "enabledSystemEntities": [
+    "mystem.geo",
+    "mystem.persn",
+    "mystem.obsc",
+    "pymorphy.geox",
+    "duckling.number",
+    "duckling.time",
+    "duckling.duration",
+    "duckling.phone-number",
+    "duckling.email",
+    "duckling.url"
+  ],
+  "spellerDictionary": [],
+  "systemEntities": [
+    {
+      "name": "mystem.geo",
+      "enabled": true
+    },
+    {
+      "name": "mystem.persn",
+      "enabled": true
+    },
+    {
+      "name": "mystem.obsc",
+      "enabled": true
+    },
+    {
+      "name": "mystem.patrn",
+      "enabled": false
+    },
+    {
+      "name": "mystem.famn",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.romn",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.latn",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.numb",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.intg",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.abbr",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.name",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.surn",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.patr",
+      "enabled": false
+    },
+    {
+      "name": "pymorphy.geox",
+      "enabled": true
+    },
+    {
+      "name": "pymorphy.orgn",
+      "enabled": false
+    },
+    {
+      "name": "duckling.number",
+      "version": "v2",
+      "enabled": true
+    },
+    {
+      "name": "duckling.ordinal",
+      "version": "v2",
+      "enabled": false
+    },
+    {
+      "name": "duckling.amount-of-money",
+      "version": "v2",
+      "enabled": false
+    },
+    {
+      "name": "duckling.distance",
+      "version": "v2",
+      "enabled": false
+    },
+    {
+      "name": "duckling.time",
+      "version": "v2",
+      "enabled": true
+    },
+    {
+      "name": "duckling.date",
+      "version": "v2",
+      "enabled": false
+    },
+    {
+      "name": "duckling.time-of-day",
+      "version": "v2",
+      "enabled": false
+    },
+    {
+      "name": "duckling.duration",
+      "version": "v2",
+      "enabled": true
+    },
+    {
+      "name": "duckling.phone-number",
+      "version": "v2",
+      "enabled": true
+    },
+    {
+      "name": "duckling.email",
+      "version": "v2",
+      "enabled": true
+    },
+    {
+      "name": "duckling.url",
+      "version": "v2",
+      "enabled": true
+    },
+    {
+      "name": "duckling.interval",
+      "version": "v2",
+      "enabled": false
+    },
+    {
+      "name": "mlps-obscene.obscene",
+      "enabled": false
+    },
+    {
+      "name": "zb.datetime",
+      "enabled": false
+    },
+    {
+      "name": "zb.number",
+      "enabled": false
+    }
+  ],
+  "faq": [],
+  "skills": []
+}

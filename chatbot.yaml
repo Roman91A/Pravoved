@@ -1,0 +1,29 @@
+name: zb-cailapub
+
+entryPoint: main.sc
+
+botEngine: v2
+language: ru
+
+tests:
+  include:
+    - test.xml
+
+nlp:
+  # considerContextDepthInStateSelectionV2: false
+  modifyRequestInPreMatch: true
+  intentNoMatchThresholds:
+    phrases: 0.2
+    patterns: 0.1
+
+additionalEvents:
+  - onCallNotConnected
+
+
+
+injector: 
+
+  api: 
+    dadata: 
+      apiKey: 8e25a49363b4883092013b0d938aa116328acc28
+      secretKey: 3b3bf496c4ad6d179b1a707a4d99bd80c3399c74

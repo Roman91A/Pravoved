@@ -1,0 +1,178 @@
+
+
+NegativeDebt:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/NegativeDebt.wav
+
+AmountOfDebt:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/AmountOfDebt.wav
+
+AmountOfDebt4AmountOfDebt:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/AmountOfDebt4AmountOfDebt.wav
+
+AmountOfDebt4CatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/AmountOfDebt4CatchAll1.wav
+
+AmountOfDebt4CatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/AmountOfDebt4CatchAll2.wav
+
+Bankruptcy10:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Bankruptcy10.wav
+
+Bankruptcy10CatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Bankruptcy10CatchAll1.wav
+
+Bankruptcy10CatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Bankruptcy10CatchAll2.wav
+
+BusinessDeal9:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/BusinessDeal9.wav
+
+BusinessDeal9CatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/BusinessDeal9CatchAll1.wav
+
+BusinessDeal9CatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/BusinessDeal9CatchAll2.wav
+
+Citizenship:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Citizenship.wav
+
+Citizenship2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Citizenship2.wav
+
+Citizenship2NotACitizen:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Citizenship2NotACitizen.wav
+
+CitizenshipCatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/CitizenshipCatchAll1.wav
+
+CitizenshipCatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/CitizenshipCatchAll2.wav
+
+CorrectionYes:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/CorrectionYes.wav
+
+Credit6:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Credit6.wav
+
+Credit6CatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Credit6CatchAll1.wav
+
+DebtComposition5CatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/DebtComposition5CatchAll1..wav
+
+DebtComposition5CatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/DebtComposition5CatchAll2.wav
+
+DebtComposition5CatchAll3:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/DebtComposition5CatchAll3.wav
+
+End:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/End.wav
+
+Good:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Good.wav
+
+HasBankruptcy:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/HasBankruptcy.wav
+
+HasDeposit:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/HasDeposit.wav
+
+IsName:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/isName.wav
+
+Location3:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Location3.wav
+
+Location3City:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Location3City.wav
+
+Location3SpeechNotRecognized1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Location3SpeechNotRecognized1.wav
+
+Location3SpeechNotRecognized2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Location3SpeechNotRecognized2.wav
+
+Name1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Name1.wav
+
+Name1SpeechNotRecognazed2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Name1SpeechNotRecognazed2.wav
+
+NotBankruptcy:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/NotBankruptcy.wav
+
+Property7:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Property7.wav
+
+Property7CatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Property7CatchAll1.wav
+
+Property7CatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Property7CatchAll2.wav
+
+Property7SpeechNotRecognized2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Property7SpeechNotRecognized2.wav
+
+StartFirst:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartFirst.wav
+
+StartFirstSpeechNotRecognized1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartFirstSpeechNotRecognized1.wav
+
+StartFirstSpeechNotRecognized2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartFirstSpeechNotRecognized2.wav
+
+StartFirstSpeechNotRecognized3:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartFirstSpeechNotRecognized3.wav
+
+StartSecond:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartSecond.wav
+
+StartSecondCatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartSecondCatchAll1.wav
+
+StartSecondCatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartSecondCatchAll2.wav
+
+StartSecondNo:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartSecondNo.wav
+
+StartSecondNoNo:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/StartSecondNoNo.wav
+
+Understood_2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Understood_2.wav
+
+Understood:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Understood.wav
+
+Work8:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Work8.wav
+
+Work8CatchAll1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Work8CatchAll1.wav
+
+Work8CatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Work8CatchAll2.wav
+
+Work8Working:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Work8Working.wav
+
+Property7HasAdditionalProperty:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Property7HasAdditionalProperty.wav
+
+DebtComposition5:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/DebtComposition5.wav
+
+Credit6CatchAll2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/Credit6CatchAll2.wav
+
+ThankYouForYourTime:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/ThankYouForYourTime.wav
+
+TheSurvey1:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/TheSurvey1.wav
+
+TheSurvey2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/TheSurvey2.wav
