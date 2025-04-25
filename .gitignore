@@ -1,0 +1,9 @@
+settings.json
+*.keep
+src/.keep
+src/**/.keep
+build
+.vscode
+.idea
+.DS_Store
+.continuerules
