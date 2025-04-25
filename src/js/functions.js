@@ -5,7 +5,6 @@ function isNotEmptyArray(arr) {
 
 
 
-
 function getGPT(prompt, assistants) {
     var res = $http.post("http://150.241.68.42:5000/gpt-query", {
         headers: { "accept": "application/json" },

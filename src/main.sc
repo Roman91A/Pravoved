@@ -78,6 +78,7 @@ init:
     /* Обрботчик onScriptError */
     bind("onScriptError", function($context) {
         log('[+++] 🧠🧠🧠 onScriptError = ' + toPrettyString($context.exception.message));
+        $dialer.hangUp();
     });
 
 

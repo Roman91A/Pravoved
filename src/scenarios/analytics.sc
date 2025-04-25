@@ -2,13 +2,13 @@ theme: /
 
     state: Analytics
         script: 
+            $dialer.hangUp();
 
             try {
                 if (!$session.analytics){
                     $session.analytics = true;
                     var link = $session.pushback;
                     var data = $session.user;
-                    $dialer.hangUp();
                 
                     if (link && data ) {
                         returnData(link, data);
