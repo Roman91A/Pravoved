@@ -176,3 +176,12 @@ TheSurvey1:
 
 TheSurvey2:
   audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/TheSurvey2.wav
+
+ContactSourceInquiry:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/ContactSourceInquiry.wav
+
+ContactSourceInquiry2:
+  audio: https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/debtCancellation.wav
+
+ContactSourceInquiry3:
+  audio:  https://a8dd5559-4af7-4a15-aba3-6c1e882d7d0f.selstorage.ru/ContactSourceInquiry_2.wav

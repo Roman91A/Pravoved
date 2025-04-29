@@ -24,6 +24,45 @@
   },
   "intents": [
     {
+      "path": "/ContactSourceInquiry",
+      "enabled": true,
+      "shared": false,
+      "phrases": [
+        {
+          "text": "откуда у вас мой номер"
+        },
+        {
+          "text": "где взяли мой номер "
+        },
+        {
+          "text": "где Вы взяли номер"
+        },
+        {
+          "text": "Из какой компании звоните"
+        },
+        {
+          "text": "Откуда звоните"
+        },
+        {
+          "text": "то за компания"
+        },
+        {
+          "text": "с какой компании вы мне звоните"
+        },
+        {
+          "text": "где вы взяли мой номер"
+        },
+        {
+          "text": "что за компания"
+        }
+      ],
+      "classificationRules": {
+        "refs": []
+      },
+      "patterns": [],
+      "priority": 0
+    },
+    {
       "path": "/AnsweringMachine",
       "enabled": true,
       "shared": false,

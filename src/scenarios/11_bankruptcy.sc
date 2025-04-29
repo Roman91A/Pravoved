@@ -28,7 +28,7 @@ theme: /
             go!: /Analytics
 
         # Bankruptcy_10/CatchAll
-        state: CatchAll
+        state: CatchAll || noContext = true
             event: noMatch
             script:
                 $dialer.setNoInputTimeout(2500);

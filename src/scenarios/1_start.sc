@@ -2,7 +2,6 @@ theme: /
 
     # /GlobalNoMatch
     state: GlobalNoMatch
-        q!: 44
         event!: noMatch
         script: 
             $session.snr20 = $session.snr20?  $session.snr20: 0
@@ -86,7 +85,7 @@ theme: /
         audio: {{response.StartSecond.audio}}
 
         # StartSecond/SpeechNotRecognized
-        state: SpeechNotRecognized
+        state: SpeechNotRecognized || noContext = true
             event: noMatch
             event: speechNotRecognized
             script:
@@ -144,7 +143,7 @@ theme: /
 
 
             # StartSecond/No/SpeechNotRecognized
-            state: SpeechNotRecognized
+            state: SpeechNotRecognized || noContext = true
                 event: noMatch
                 event: speechNotRecognized
                 script:
@@ -160,3 +159,8 @@ theme: /
                     audio: {{response.StartFirstSpeechNotRecognized3.audio}}
                     script: $session.user.qualified = false;
                     go!: /Analytics
+
+        # StartSecond/ContactSourceInquiry
+        state: ContactSourceInquiry || noContext = true
+            intent: /ContactSourceInquiry
+            audio: {{response.ContactSourceInquiry3.audio}}
