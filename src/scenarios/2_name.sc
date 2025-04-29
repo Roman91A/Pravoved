@@ -2,7 +2,6 @@ theme: /
     
     # Name_1
     state: Name_1
-        q!: 1
 
         audio: {{response.Name1.audio}}
 
