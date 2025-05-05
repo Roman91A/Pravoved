@@ -2,7 +2,6 @@ theme: /
  
     # Bankruptcy_10
     state: Bankruptcy_10
-        q!: 33
         audio: {{response.Bankruptcy10.audio}}
 
 
